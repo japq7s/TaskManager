@@ -1,4 +1,4 @@
-package com.taskmanager;
+package com.project.TaskManager;
 
 import java.sql.*;
 
@@ -54,4 +54,5 @@ public class TeamManager {
             return false;
         }
     }
+
 }
