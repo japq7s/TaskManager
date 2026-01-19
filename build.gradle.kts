@@ -21,7 +21,7 @@ repositories {
 	mavenCentral()
 }
 dependencies {
-	implementation("org.mindrot:jbcrypt:0.2")
+	implementation("org.mindrot:jbcrypt:0.4")
 	implementation("org.xerial:sqlite-jdbc:3.42.0.0")
 	implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
