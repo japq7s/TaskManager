@@ -20,9 +20,6 @@ java {
 repositories {
 	mavenCentral()
 }
-application{
-	mainClass = 'com.project.TaskManager.Main'
-}
 dependencies {
 	implementation("org.mindrot:jbcrypt:0.2")
 	implementation("org.xerial:sqlite-jdbc:3.42.0.0")
