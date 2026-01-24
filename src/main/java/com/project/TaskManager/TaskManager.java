@@ -1,7 +1,9 @@
 package com.project.TaskManager;
 
 import java.sql.*;
+import org.springframework.stereotype.Service;
 
+@Service
 public class TaskManager {
 
     public void addTask(String description, int teamId, int assignedUserId) {

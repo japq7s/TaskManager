@@ -2,7 +2,8 @@ package com.project.TaskManager;
 
 import org.mindrot.jbcrypt.BCrypt; //haszuje hasla (blowfish ale w javie)
 import java.sql.*;
-
+import org.springframework.stereotype.Service;
+@Service
 public class UserManager {
 
     public boolean register(String username, String password) {

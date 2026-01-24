@@ -1,7 +1,8 @@
 package com.project.TaskManager;
 
 import java.sql.*;
-
+import org.springframework.stereotype.Service;
+@Service
 public class TeamManager {
 
     public int createTeam(String teamName) {
